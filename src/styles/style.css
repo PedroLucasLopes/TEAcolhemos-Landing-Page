@@ -114,7 +114,6 @@ main button {
 
     padding: 17px;
     margin-top: 50px;
-    margin-left: 0;
 
     cursor: pointer;
 
@@ -142,13 +141,12 @@ aside {
 }
 
 aside img {
-    margin-left: 80px;
     width:  20px;
     height: 20px;
 }
 
-#doctors {
-    width:  318px;
+#aside-image {
+    width:  320px;
     height: 400px;
 }
 

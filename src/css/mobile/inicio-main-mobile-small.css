@@ -1,0 +1,68 @@
+@media(max-width: 479px) {
+    main {
+        margin-left: 28px;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 10px;
+        padding: 2vh;
+    }
+    
+    main h1 {
+        font-size: 4vh;
+    }
+    
+    main p {
+        color: var(--dark);
+        font-size: 2vh;
+
+        margin-top: 3vh;
+    }
+    
+    main section button {
+        background-color: var(--green);
+
+        border-radius: 5px;
+
+        margin-top: 10px;
+
+        width: 50%;
+    
+        cursor: pointer;
+    
+        color: var(--black);
+    }
+    
+    main section button {
+        background-color: var(--green);
+    
+        border: none;
+        border-radius: 5px;
+    
+        padding: 17px;
+    
+        cursor: pointer;
+    
+        color: var(--black);
+    
+        width: 40vw;
+        height: 10vh;
+    
+        font-size: 2.1vh;
+        text-align: center;
+
+        margin-top: 3vh;
+    }
+    
+    main button:hover {
+        background-color: var(--dark-green);
+    
+        color: var(--white);
+    }
+    
+    main h1 span {
+        border-radius: 4px;
+    
+        background-color: var(--green);
+    }
+}

@@ -1,0 +1,8 @@
+@media(max-width: 479px) {
+    
+    footer p, footer p a {
+        font-size: 2vh;
+        justify-content: center;
+        text-align: center;
+    }
+}

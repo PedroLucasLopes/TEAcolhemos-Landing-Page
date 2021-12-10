@@ -1,0 +1,50 @@
+main {
+    display: flex;    
+    flex-direction:column;
+    align-items: start;
+
+    grid-area: main;
+    gap: 8px;
+
+    margin-left: 15vw;
+    margin-top: 15vh;
+    padding: 0 3vw;
+}
+
+main h1 {
+    font-size: 4vh;
+}
+
+main p {
+    color: var(--dark);
+    font-size: 2vh;
+}
+
+main button {
+    background-color: var(--green);
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 17px;
+    margin-top: 50px;
+
+    cursor: pointer;
+
+    color: var(--black);
+
+    width: 13vw;
+    height: 10vh;
+}
+
+main button:hover {
+    background-color: var(--dark-green);
+
+    color: var(--white);
+}
+
+main h1 span {
+    border-radius: 4px;
+
+    background-color: var(--green);
+}

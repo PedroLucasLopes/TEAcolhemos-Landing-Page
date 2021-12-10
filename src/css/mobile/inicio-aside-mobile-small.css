@@ -1,0 +1,25 @@
+@media(max-width: 479px) {
+    aside {
+        align-items: center;
+        margin-top: 5vh;
+
+        flex-direction: column;
+    }
+
+    #aside-image {
+        width: 60vw;
+        height: 70vw;
+    }
+
+    aside nav ul {
+        display: flex;
+        
+        gap: 20px;
+        margin-top: 3vh;
+    }
+    
+    aside img {
+        width:  8vw;
+        height: 8vw;
+    }
+}

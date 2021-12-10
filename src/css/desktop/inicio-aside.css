@@ -1,0 +1,25 @@
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    grid-area: aside;
+}
+
+aside img {
+    width:  20px;
+    height: 20px;
+}
+
+#aside-image {
+    width: 25vw;
+    height: 30vw;
+}
+
+aside nav ul {
+    list-style: none;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}

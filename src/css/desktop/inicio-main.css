@@ -41,6 +41,7 @@ main button:hover {
     background-color: var(--dark-green);
 
     color: var(--white);
+    transition: background 0.5s ease-in-out;
 }
 
 main h1 span {
